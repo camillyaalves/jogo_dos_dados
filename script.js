@@ -21,7 +21,7 @@ document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
 if (randomNumber1>randomNumber2){
     document.querySelector("h1").innerHTML = "Player 1 venceu!";
 } else if (randomNumber1<randomNumber2){
-    document.querySelector("h1").innerHTML = "Player 2 vencer!";
+    document.querySelector("h1").innerHTML = "Player 2 venceu!";
 } else {
     document.querySelector("h1").innerHTML = "Empate!";
 }
